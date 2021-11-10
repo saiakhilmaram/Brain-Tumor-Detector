@@ -2,10 +2,9 @@ import tensorflow as tf
 
 from tensorflow import keras
 
-from PIL import Image, ImageOps
-
 import numpy as np
-
+from PIL import Image, ImageOps
+from tensorflow import keras
 
 
 def classification(img, weights_file):
