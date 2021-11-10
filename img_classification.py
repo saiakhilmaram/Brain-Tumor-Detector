@@ -1,13 +1,14 @@
 import numpy as np
+import tensorflow
 from PIL import Image, ImageOps
-from tensorflow import keras
+
 
 
 def classification(img, weights_file):
 
     # Load the model
 
-    model = keras.models.load_model(weights_file)
+    model = tensorflow.keras.models.load_model(weights_file)
 
 
     # Create the array of the right shape to feed into the keras model
