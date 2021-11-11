@@ -1,5 +1,5 @@
-tensorflow--cpu==2.3.0
-streamlit==1.1.0
-numpy==1.19.5
-Pillow==8.4.0
+streamlit==0.73.0
+tensorflow-cpu==2.3.0
+numpy==1.18.5
+pillow==8.0.1
 
